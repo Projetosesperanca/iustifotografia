@@ -19,13 +19,14 @@ export function Navigation() {
 
   const links = [
     { href: "/", label: "Home" },
+    {href: "/contato", label: "Contato" },
     { href: "/portfolio", label: "Portfólio" },
     { href: "/gestante", label: "Gestante" },
     { href: "/formaturas", label: "Formaturas" },
     { href: "/sobre", label: "Sobre" },
     { href: "/servicos", label: "Serviços" },
-    { href: "/seguranca", label: "Cobertura" },
-    { href: "/contato", label: "Contato" },
+    { href: "/seguranca", label: "Segurança" },
+    
   ];
 
   return (
@@ -69,26 +70,31 @@ export function Navigation() {
         <button 
           onClick={() => setIsOpen(!isOpen)}
           className="md:hidden z-50 text-foreground hover:text-primary transition-colors"
+          style={{ marginTop: "0px", marginRight: "10px",marginLeft: "80%",border: "1px solid white ",padding: "10px",textAlign: "center" }}
         >
-          {isOpen ? <X size={24} /> : <Menu size={24} />}
+         Clique Aqui! {isOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
 
         {/* Mobile Menu */}
         <AnimatePresence>
+          
           {isOpen && (
             <motion.div
               initial={{ opacity: 0, x: "100%" }}
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: "100%" }}
-              transition={{ type: "tween", duration: 0.4, ease: "circOut" }}
+              transition={{ type: "fade", duration:1, ease: "circOut" }}
               className="fixed inset-0 bg-background flex flex-col items-center justify-center gap-8 md:hidden"
+              
             >
+              <br/><br/><br/><br/><br/>
               {links.map((link) => (
                 <Link 
                   key={link.href} 
                   href={link.href}
-                  className="text-2xl font-serif text-foreground hover:text-primary transition-colors"
+                  className="font-serif text-foreground hover:text-primary transition-colors"
                   onClick={() => setIsOpen(false)}
+                  style={{margin:0, textTransform: "uppercase", letterSpacing: "0.2em",backgroundColor:"black",padding: "10px",borderRadius: "5px" }}
                 >
                   {link.label}
                 </Link>

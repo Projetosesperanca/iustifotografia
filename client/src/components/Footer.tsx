@@ -88,7 +88,7 @@ export function Footer() {
         </div>
 
         <div className="mt-16 pt-8 border-t border-border text-center text-muted-foreground text-sm font-light space-y-2">
-          <p>&copy; {new Date().getFullYear()} Iusti Produções. Todos os direitos reservados.</p>
+          <p>&copy; 2013 Iusti Produções. Todos os direitos reservados.</p>
           <p>
             Desenvolvido por{" "}
             <a

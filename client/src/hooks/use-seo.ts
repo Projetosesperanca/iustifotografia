@@ -75,7 +75,7 @@ export function useSeo({
     updateMeta("property", "og:type", ogType ?? "website");
     updateMeta("property", "og:title", title);
     updateMeta("property", "og:description", description);
-    updateMeta("property", "og:image", image ?? "/favicon.png");
+    updateMeta("property", "og:image", image ?? "../attached_assets/stock_images/alincascasamento.jpg");
     updateMeta("property", "og:image:alt", imageAlt ?? title);
     updateMeta("property", "og:locale", locale ?? "pt_BR");
     updateMeta("property", "og:site_name", siteName ?? "Iusti Produções");
@@ -83,7 +83,7 @@ export function useSeo({
     updateMeta("name", "twitter:card", "summary_large_image");
     updateMeta("name", "twitter:title", title);
     updateMeta("name", "twitter:description", description);
-    updateMeta("name", "twitter:image", image ?? "/favicon.png");
+    updateMeta("name", "twitter:image", image ??"../attached_assets/stock_images/alincascasamento.jpg");
     updateMeta("name", "twitter:image:alt", imageAlt ?? title);
     updateMeta("name", "twitter:site", twitterSite ?? "@iustifotografia");
     updateMeta("name", "twitter:creator", twitterCreator ?? "@iustifotografia");
