@@ -72,7 +72,7 @@ export function Navigation() {
           className="md:hidden z-50 text-foreground hover:text-primary transition-colors"
           style={{ marginTop: "0px", marginRight: "10px",marginLeft: "80%",border: "1px solid white ",padding: "10px",textAlign: "center" }}
         >
-         Clique Aqui! {isOpen ? <X size={24} /> : <Menu size={24} />}
+         Clique Aqui! {isOpen ? <X size={24} /> : <Menu size={1} />}
         </button>
 
         {/* Mobile Menu */}
