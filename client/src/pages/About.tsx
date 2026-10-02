@@ -10,7 +10,7 @@ export default function About() {
     description: "Conheça a filosofia da Iusti Produções: atendimento exclusivo, narrativa autoral e cobertura cinematográfica para casamentos com emoção e técnica refinada.",
     image: imgPhotographer,
     imageAlt: "Fotógrafo fotografando a noiva",
-    url: "https://www.iusti.productions/sobre",
+    url: "https://www.iusti.site/sobre",
     keywords: "fotógrafo de casamento, portfólio de casamento, atendimento exclusivo, fotografia autoral, filmes de casamento",
     twitterSite: "@iustifotografia",
     twitterCreator: "@iustifotografia",

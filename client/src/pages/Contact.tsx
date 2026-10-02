@@ -9,7 +9,7 @@ export default function Contact() {
     description: "Fale conosco para registrar seu casamento ou ensaio gestante com uma equipe que une técnica, sensibilidade e atendimento exclusivo.",
     image: imgContact,
     imageAlt: "Casal feliz em sessão de casamento",
-    url: "https://www.iusti.productions/contato",
+    url: "https://www.iusti.site/contato",
     keywords: "contato fotografia, orçamento casamento, reservar fotógrafo, ensaio gestante, serviço de casamento",
     twitterSite: "@iustifotografia",
     twitterCreator: "@iustifotografia",
@@ -39,7 +39,7 @@ export default function Contact() {
             <div className="space-y-2 text-muted-foreground font-light">
               <p>São Paulo, SP - Brasil</p>
               <p>Disponível para Destination Weddings em todo o mundo.</p>
-              <p className="pt-2">contato@iusti.productions</p>
+              <p className="pt-2">contato@iusti.site</p>
             </div>
           </motion.div>
 

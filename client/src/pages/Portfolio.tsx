@@ -42,7 +42,7 @@ export default function Portfolio() {
     description: "Explore nosso portfólio de casamentos, ensaios e filmes autorais. Imagens criadas para registrar histórias reais com sensibilidade e excelência técnica.",
     image: images[1]?.src ?? "/favicon.png",
     imageAlt: images[0]?.title ? `${images[0].title} em portfólio` : "Portfólio de casamentos",
-    url: "https://www.iusti.productions/portfolio",
+    url: "https://www.iusti.site/portfolio",
     keywords: "portfólio de casamento, fotos de casamento, ensaio de casamento, fotografia autoral, filme de casamento",
     twitterSite: "@iustifotografia",
     twitterCreator: "@iustifotografia",

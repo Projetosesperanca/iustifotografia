@@ -8,7 +8,7 @@ export default function NotFound() {
     description: "A página que você procura não foi encontrada. Volte ao início para continuar explorando nossos serviços de fotografia e vídeo de casamento.",
     image: "/favicon.png",
     imageAlt: "Página não encontrada Iusti Produções",
-    url: "https://www.iusti.productions/404",
+    url: "https://www.iusti.site/404",
     keywords: "404, página não encontrada, iusti produções, fotografia casamento, portfólio casamento",
     twitterSite: "@iustifotografia",
     twitterCreator: "@iustifotografia",

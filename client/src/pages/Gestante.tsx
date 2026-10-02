@@ -25,7 +25,7 @@ export default function Gestante() {
     description: "Registre a gestação com um ensaio fotográfico cheio de sensibilidade. Transformamos a beleza do corpo materno e da espera em imagens memoráveis.",
     image: imgHero,
     imageAlt: "Ensaio de gestante com luz suave",
-    url: "https://www.iusti.productions/gestante",
+    url: "https://www.iusti.site/gestante",
     keywords: "ensaio gestante, fotografia de maternidade, fotos de gravidez, ensaio de gestação, registros maternos",
     twitterSite: "@iustifotografia",
     twitterCreator: "@iustifotografia",

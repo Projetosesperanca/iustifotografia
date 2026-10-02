@@ -11,7 +11,7 @@ export default function Services() {
     description: "Conheça nossos serviços exclusivos de fotografia e filme cinematográfico para casamentos, com cobertura completa, direção sutil e legado visual.",
     image: imgCinema,
     imageAlt: "Recepção de casamento com luz cinematográfica",
-    url: "https://www.iusti.productions/servicos",
+    url: "https://www.iusti.site/servicos",
     keywords: "serviços de fotografia, vídeo de casamento, cobertura de casamento, filme cinematográfico, ensaio pré-wedding",
     twitterSite: "@iustifotografia",
     twitterCreator: "@iustifotografia",

@@ -13,7 +13,7 @@ export default function Formaturas () {
     description: "Cobertura autoral para formaturas, com fotos e vídeo que preservam emoção, conquistas e celebrações. Entregamos um legado visual para toda família.",
     image: imgFormatura,
     imageAlt: "Formandos celebrando a formatura com becas e capelos",
-    url: "https://www.iusti.productions/formaturas",
+    url: "https://www.iusti.site/formaturas",
     keywords: "formatura, cobertura de formatura, fotógrafo de formatura, filme de formatura, festa de formatura, registro de formatura",
     twitterSite: "@iustifotografia",
     twitterCreator: "@iustifotografia",

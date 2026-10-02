@@ -21,7 +21,7 @@ export default function Home() {
     description: "Fotografia e filmes autorais para casamentos e eventos. Registramos cada emoção com sensibilidade artística, transformamos momentos em obras de arte de luz e narrativa cinematográfica.",
     image: imgNoiva,
     imageAlt: "Noiva com véu ao vento",
-    url: "https://www.iusti.productions/",
+    url: "https://www.iusti.site/",
     keywords: "fotografia de casamento, cinema de casamento, fotografia autoral, ensaio de casal, casamento de alto padrão",
     twitterSite: "@iustifotografia",
     twitterCreator: "@iustifotografia",

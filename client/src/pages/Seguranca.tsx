@@ -92,7 +92,7 @@ export default function Seguranca() {
     description: "Veja como garantimos a segurança total dos seus arquivos de casamento: backups em tempo real, redundância, e guarda de arquivos por 10 anos.",
     image: imgSecurity,
     imageAlt: "Backup seguro de arquivos de casamento",
-    url: "https://www.iusti.productions/seguranca",
+    url: "https://www.iusti.site/seguranca",
     keywords: "segurança de fotos, backup de arquivos, guarda de imagens, proteção de memória, armazenamento de casamento",
     twitterSite: "@iustifotografia",
     twitterCreator: "@iustifotografia",

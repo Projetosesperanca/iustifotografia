@@ -6,7 +6,7 @@
 
 :root {
   /* Dark luxury palette — black base with warm gold accents */
-  --background: 0 0% 4%;         /* Near black */
+  --background: 0 0% 0%;         /* Near black */
   --foreground: 36 15% 92%;      /* Warm off-white/cream */
   
   --primary: 45 90% 50%;         /* Pure Gold */

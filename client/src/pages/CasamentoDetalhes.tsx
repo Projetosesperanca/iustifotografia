@@ -53,7 +53,7 @@ export default function CasamentoDetalhes() {
       : "Detalhes de portfólio de casamento e histórias reais registradas com sensibilidade e técnica.",
     image: casamento ? casamento.images[0] ?? imgDetailDefault : imgDetailDefault,
     imageAlt: casamento ? `Detalhes do casamento de ${casamento.title}` : "Iusti Produções casamentos",
-    url: typeof window !== "undefined" ? `${window.location.origin}${location}` : `https://www.iusti.productions${location}`,
+    url: typeof window !== "undefined" ? `${window.location.origin}${location}` : `https://www.iusti.site${location}`,
     keywords: casamento
       ? `${casamento.title}, portfólio de casamento, fotografia de casamento, filme de casamento`
       : "casamento, portfólio, fotografia de casamento, casamento real, história de casamento",

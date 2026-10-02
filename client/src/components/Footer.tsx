@@ -34,7 +34,7 @@ export function Footer() {
             <h4 className="font-sans text-sm uppercase tracking-[0.2em] text-primary">Contato</h4>
             <div className="flex items-center gap-4">
               <motion.a
-                href="mailto:contato@iusti.productions"
+                href="mailto:contato@iusti.site"
                 aria-label="Enviar e-mail"
                 className="inline-flex h-14 w-14 items-center justify-center rounded-full border border-border/50 bg-background text-primary shadow-sm shadow-black/10"
                 whileHover={{ y: -4, scale: 1.08 }}
@@ -92,7 +92,7 @@ export function Footer() {
           <p>
             Desenvolvido por{" "}
             <a
-              href="https://www.innovaiusti.online/"
+              href="https://www.innovaiusti.site/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-primary transition-colors"
